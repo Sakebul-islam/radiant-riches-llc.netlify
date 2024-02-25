@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Variables
+// --------------------------------------------------
+
+//project common color
+$theme-color: #1B88F4;
+$header-color: #212731;
+$header-text-color: #D1D6DA;
+$body-color: #FBFCFD;
+$batch-color: #FF7724;
+$heading-color: #2C384A;
+$paragraph-color: #4B5665;
+$start-color: #FFB80F;
+$review-text-color: #074786;
+$highlight-color: #FFF4ED;
+$bullet-point-text-color: #ebf5ff;
+$bullet-point-color: #0855A1;
+$discount-color: #F2F4F7;
+$offer-color: #EF4C5D;
+$less-amount-color: #9FA9B3;
+$card-text-color: #626E79;
+$white-color: #ffffff;
+$black-color: #000;
+$deals-text-color: #5C6874;
+$footer-text-color: #B6BDC4;
+$divider-color: #E1E4E6;
+$review-color: #F3F9FF;
+// -------------------------------------------
+
+//== Typography
+// font-family
+
+$global-font: "Inter", sans-serif;
+
+// font-size
+
+$fs-base: 16px !default;
+
+$fs-h1: 72px;
+$fs-h2: 48px;
+$fs-h3: 32px;
+$fs-h4: 30px;
+$fs-h5: 24px;
+$fs-h6: 20px;
+$fs-18: 18px;
+
+//  transition
+$transition: all 0.3s ease;

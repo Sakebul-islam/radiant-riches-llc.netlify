@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "title": "Webbuilder 1",
+    "description": "Computer Modern classic with Wix support",
+    "price": 39.96,
+    "discount": "20% Off",
+    "limitedTime": "limited Time",
+    "discountedPrice": 49.96,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png"
+  },
+  {
+    "_id": 2,
+    "title": "Webbuilder 1",
+    "description": "Computer Modern classic with Wix support",
+    "price": 39.96,
+    "discount": "20% Off",
+    "limitedTime": "limited Time",
+    "discountedPrice": 49.96,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png"
+  },
+  {
+    "_id": 3,
+    "title": "Webbuilder 1",
+    "description": "Computer Modern classic with Wix support",
+    "price": 39.96,
+    "discount": "20% Off",
+    "limitedTime": "limited Time",
+    "discountedPrice": 49.96,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png"
+  }
+]

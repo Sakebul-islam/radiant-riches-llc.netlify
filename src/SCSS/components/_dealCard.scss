@@ -1,0 +1,116 @@
+.deal_card {
+
+    .card {
+        @include add-prefix('border-radius', 12px);
+        overflow: hidden;
+        padding: 20px;
+        border: 0;
+
+
+        &:hover .deal_card__thumb img {
+            @include add-prefix(animation, lighting 1s infinite alternate);
+
+        }
+    }
+
+    &__thumb {
+        @extend %flex-center;
+        margin-bottom: 60px;
+
+        img {
+            width: 141px;
+            height: 103px;
+        }
+    }
+
+    &__content {
+
+
+        &.card-body {
+            padding: 0;
+        }
+
+        .card-body {
+            &__top {
+                p {
+                    @extend %mb-5;
+                    display: flex;
+                    gap: 4px;
+
+                    span {
+                        padding: 4px 8px;
+                        background-color: $discount-color;
+                        @include add-prefix('border-radius', 8px);
+                        color: $review-text-color;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+
+                .title {
+                    text-align: center;
+                    @extend %mb-7;
+                    color: $card-text-color;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .card-body {
+            &__center {
+                margin-bottom: 14px;
+
+                p {
+                    @extend %mb-6;
+                    padding: 0;
+                    line-height: 24px;
+                    font-weight: 400;
+                    color: $card-text-color;
+                }
+
+                .span-1 {
+                    @extend %mr-10;
+                    color: $deals-text-color;
+                    font-weight: 400;
+                }
+
+                .span-2 {
+                    @extend %mr-12;
+                    color: $less-amount-color;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                .span-3 {
+                    color: $offer-color;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+            }
+
+            &__bottom {
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    display: block;
+                    width: 100%;
+                    padding-top: 11px;
+                    padding-bottom: 13px;
+                    background-color: $theme-color;
+                    color: $white-color;
+                    line-height: 24px;
+                    @include add-prefix('border-radius', 12px);
+                }
+            }
+
+        }
+    }
+}
+
+@keyframes lighting {
+    to {
+        transform: scale(1.4);
+    }
+}

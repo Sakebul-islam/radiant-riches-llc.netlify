@@ -1,0 +1,22 @@
+.deals {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &__header {
+        margin-bottom: 30px;
+
+        h3 {
+            line-height: 44px;
+            color: $heading-color;
+            margin-bottom: 0;
+        }
+    }
+
+    &__wrapper {
+        .row {
+            .deal_card:last-child {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}

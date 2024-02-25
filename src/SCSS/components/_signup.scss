@@ -1,0 +1,42 @@
+.signup {
+    padding-top: 43px;
+    padding-bottom: 43px;
+
+    &__content {
+        width: 100%;
+        color: $deals-text-color;
+        font-weight: 400;
+
+        @include breakpoint(lg) {
+            width: 500px;
+
+        }
+
+    }
+
+    &__form {
+        width: 100%;
+
+        form {
+
+            input {
+                background-color: $white-color;
+                width: 100%;
+                @include add-prefix('border-radius', 12px 0 0 12px);
+
+                @include breakpoint(lg) {
+                    width: 384px;
+                }
+            }
+
+            button {
+                white-space: nowrap;
+                padding: 16px 20px;
+                background-color: $theme-color;
+                color: $white-color;
+                line-height: 20px;
+                @include add-prefix('border-radius', 0 12px 12px 0)
+            }
+        }
+    }
+}

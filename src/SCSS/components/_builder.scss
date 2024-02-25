@@ -1,0 +1,106 @@
+.builder {
+    padding: 38px 0;
+
+    &__header {
+        h2 {
+            line-height: 60px;
+            font-weight: 400;
+            color: $heading-color;
+            margin-bottom: 11.67px;
+        }
+
+        .divider {
+            border: 1px solid $divider-color;
+            margin: 0;
+        }
+
+    }
+
+    &__updates {
+        &>div {
+
+            &>div {
+                &:last-child {
+
+                    @include breakpoint(md) {
+                        margin-left: 12px;
+                    }
+                }
+
+                p {
+                    margin-bottom: 0;
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        .dropdown {
+            &>button {
+                background-color: transparent;
+                color: $paragraph-color;
+                border: none;
+
+                &:active {
+                    color: $paragraph-color;
+                }
+            }
+
+            .dropdown-menu {
+                @include add-prefix('border-radius', 2px);
+
+                .dropdown-item {
+                    color: $black-color;
+                }
+            }
+
+        }
+
+    }
+
+    &__tag {
+        margin: 15px 0;
+        @extend %flex;
+        gap: 20px;
+
+        span {
+            padding: 8px 16px;
+            background-color: $white-color;
+            @include add-prefix('border-radius', 12px);
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+
+    &__breadcrumb {
+        margin-bottom: 40px;
+
+        .breadcrumb {
+            &-item {
+                padding-left: 10px !important;
+
+                &:first-child {
+                    padding-left: 0 !important;
+                }
+
+                &::before {
+                    padding-right: 10px !important;
+                }
+            }
+
+            a {
+                color: $deals-text-color;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__cards {
+        gap: 30px;
+
+        @include breakpoint(md) {
+            gap: 0px;
+
+        }
+    }
+}

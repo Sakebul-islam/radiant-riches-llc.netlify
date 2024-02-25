@@ -1,0 +1,103 @@
+.header-section {
+    background-color: $header-color;
+    color: $white-color;
+
+
+    .navbar {
+        justify-content: center;
+
+        @include breakpoint(lg) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        .container {
+            justify-content: space-between;
+
+            @include breakpoint(lg) {
+                justify-content: center;
+            }
+
+            .navbar-toggler {
+                background-color: white;
+            }
+        }
+    }
+
+    .navbar-expand-lg {
+        @extend %text-center;
+
+        .navbar-nav {
+            @include breakpoint(lg) {
+                :first-child {
+                    .nav-link {
+                        padding-left: 0 !important;
+                    }
+                }
+
+                margin-left: 79px !important;
+            }
+
+
+
+            .nav-link {
+                color: $white-color;
+
+                @include breakpoint(lg) {
+
+                    padding-left: 26.5px;
+                    padding-right: 26.5px;
+                }
+
+                &.active {
+
+                    color: $white-color;
+                }
+            }
+        }
+
+
+    }
+
+
+
+    .navbar-collapse {
+        flex-grow: 0;
+
+
+
+        form {
+            @extend %mt-10;
+
+            @include breakpoint(lg) {
+                margin-top: 0;
+            }
+        }
+    }
+
+    form {
+        @extend %p-rel;
+        min-width: 258px;
+
+        input {
+            padding-left: 35px;
+            @include border-radius(8px)
+        }
+
+        button {
+            color: $card-text-color;
+            @extend%p-abs;
+            width: 25px;
+            height: 25px;
+            padding: 0;
+            top: 50%;
+            left: 9px;
+            bottom: 0;
+            @include add-prefix(transform, translate(0, -50%));
+
+            &:hover {
+                color: $card-text-color;
+            }
+        }
+    }
+}

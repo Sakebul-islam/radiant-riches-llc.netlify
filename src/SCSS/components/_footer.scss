@@ -1,0 +1,54 @@
+.footer {
+    background-color: $header-color;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+    @include breakpoint(lg) {
+        padding-top: 54px;
+        padding-bottom: 200px;
+    }
+
+    .dropdown {
+        &>button {
+            background-color: transparent;
+            color: $header-text-color;
+            border: none;
+
+            &:active {
+                color: $header-text-color;
+            }
+        }
+
+        .dropdown-menu {
+            @include add-prefix('border-radius', 2px);
+
+            .dropdown-item {
+                color: $black-color;
+            }
+        }
+
+    }
+
+    a {
+        color: $white-color;
+        text-decoration: none;
+    }
+
+    p {
+
+        color: $white-color;
+        text-transform: uppercase;
+        @extend %mb-13
+    }
+
+    &__list {
+        display: grid;
+        gap: 20px;
+
+        li {
+            a {
+                color: $footer-text-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.container {
+    @include breakpoint(xl) {
+        max-width: 1024px !important;
+    }
+}
+
+@keyframes lighting {
+    0% {
+        @include add-prefix(transform, scale(1.5));
+    }
+
+    100% {
+        @include add-prefix(transform, scale(1.5));
+    }
+}

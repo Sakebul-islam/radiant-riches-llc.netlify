@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png",
+    "imageTitle": "Builder 1",
+    "contentTop": "<p><strong>WixPro 72-Inch Responsive Website Builder-</strong> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)</p>",
+    "contentTitle": "Main highlights",
+    "content": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+    "rating": 9.8,
+    "stars": 5,
+    "ratingStatus": "Exceptional",
+    "batch": "Best Choice"
+  },
+  {
+    "id": 2,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png",
+    "imageTitle": "Builder",
+    "contentTop": "<p><strong>SiteCraft 68-Inch Ultimate Web Design Studio-</strong> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)</p>",
+    "contentTitle": "Main highlights",
+    "content": "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
+    "rating": 9.5,
+    "stars": 4.5,
+    "ratingStatus": "Excellent",
+    "batch": "Best Value"
+  },
+  {
+    "id": 3,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png",
+    "imageTitle": "Builder 1",
+    "contentTop": "<p><strong>WixPro 72-Inch Responsive Website Builder- </strong>  Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)</p>",
+    "contentTitle": "Main highlights",
+    "content": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.",
+    "rating": 9.3,
+    "stars": 5,
+    "ratingStatus": "Exceptional"
+  },
+  {
+    "id": 4,
+    "imageURL": "https://i.ibb.co/FDzt8tM/deals.png",
+    "imageTitle": "CDK",
+    "contentTop": "<p><strong>CDK Resposive Builder:</strong> An extensive library of widgets and apps, and detailed step-by-step guides</p>",
+    "offer": "26% Off",
+    "contentTitle": "Main highlights",
+    "contentList": "<ul><li><span>9.9</span><p>building responsive</p></li><li><span>8.9</span><p>Cool</p></li><li><span>8.9</span><p>Docs</p></li></ul>",
+    "wishTitle": "Why we love it",
+    "wishList": ["Documentation", "Easy Use", "Out of box"],
+    "rating": 9.1,
+    "stars": 4,
+    "ratingStatus": "Very Good"
+  }
+]
